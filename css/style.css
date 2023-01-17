@@ -588,5 +588,12 @@ padding-left: 0px;
 .footer-icon-link{
     width: 40px;
     height: 40px;
+
+    fill: white;
+}
+.footer-icon-link:hover,
+.footer-icon-link::focus{
+    background-color: #31D0AA;
+    fill: currentColor;
 }
 
