@@ -117,9 +117,13 @@ body{
 .adress{
     display: flex;
     margin-left: auto;
+    gap: 40px;
 }
-.adress-list + .adress-list{
-    margin-left: 40px;
+.adress-item-mail::before{
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-color: tomato;
 }
 .adress-item-tel,
 .adress-item-mail {
@@ -130,7 +134,6 @@ body{
     color: var(--slate);
     text-decoration: none;
     font-style: normal;
-    
 }
 .adress-item-tel:hover,
 .adress-item-tel:focus,
