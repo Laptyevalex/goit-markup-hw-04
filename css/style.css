@@ -435,7 +435,7 @@ padding-left: 0px;
 .card-content{
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 15px;
+    padding-left: 16px;
     border-left: 0.5px solid var(--cloud);
     border-right: 0.5px solid var(--cloud);
     border-bottom: 0.5px solid var(--cloud);
